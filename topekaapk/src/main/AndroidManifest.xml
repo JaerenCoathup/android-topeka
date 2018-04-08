@@ -1,3 +1,4 @@
 <manifest package="com.google.samples.app.topeka"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 </manifest>

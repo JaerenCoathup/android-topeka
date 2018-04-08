@@ -65,7 +65,7 @@ dependencies {
     kapt "com.android.databinding:compiler:3.1.0"
 
     application project(":topekaapk")
-    feature project(":topeka-ui")
+    feature project(':topeka-signin')
 
     implementation "com.android.support:appcompat-v7:${supportLibVersion}"
     implementation "com.android.support:cardview-v7:${supportLibVersion}"
@@ -93,5 +93,8 @@ dependencies {
 
     androidTestImplementation "org.hamcrest:hamcrest-core:${hamcrestVersion}"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
-    feature project(":topeka-ui")
+    feature project(':topeka-signin')
+
+    kapt "com.android.databinding:compiler:3.1.0"
+    feature project(":topeka-quiz")
 }

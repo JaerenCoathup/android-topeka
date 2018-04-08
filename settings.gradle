@@ -15,4 +15,4 @@
  */
 
 
-include ':topeka-base', ':topekaapk', ':topeka-instantapp', ':topeka-ui'
+include ':topeka-base', ':topekaapk', ':topeka-instantapp', ':topeka-signin', ':topeka-quiz'

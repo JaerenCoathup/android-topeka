@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 
+
 android {
     compileSdkVersion 27
 
@@ -32,7 +33,8 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation project(":topeka-base")
-    implementation project(":topeka-ui")
+    implementation project(':topeka-signin')
+    implementation project(':topeka-quiz')
 
     implementation 'com.android.support:appcompat-v7:27.1.1'
 }
